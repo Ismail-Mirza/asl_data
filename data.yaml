@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 10
+names: ['ExcuseMe', 'Expensive', 'Fix', 'Food', 'Hello', 'HowAreYou', 'Internet', 'NiceToMeetYou', 'Talk', 'ThankYou']
+
+roboflow:
+  workspace: thesis-project-1bhmz
+  project: i3d
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/thesis-project-1bhmz/i3d/dataset/3
